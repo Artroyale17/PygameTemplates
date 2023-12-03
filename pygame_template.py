@@ -1,8 +1,8 @@
 import pygame
 
 #Задаем основыне константы
-WIDTH = 577
-HEIGHT = 765
+WIDTH = 500
+HEIGHT = 500
 FPS = 30
 
 #Задаем цвета
@@ -11,7 +11,7 @@ BLACK = (0, 0, 0)
 #Инициализация Pygame
 pygame.init()
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("test")
+pygame.display.set_caption("Template")
 clock = pygame.time.Clock()
 
 isOpen = True
